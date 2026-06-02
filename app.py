@@ -211,7 +211,7 @@ class Sidebar(QWidget):
 class MainWindow(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Cassandra Viewer")
+        self.setWindowTitle("Cassandra Tables")
         self.resize(1600, 800)
         self.setMinimumSize(600, 400)
 
